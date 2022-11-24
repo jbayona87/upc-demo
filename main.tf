@@ -95,7 +95,7 @@ resource "aws_route_table_association" "myLab-Assn" {
 }
 
 # Create an AWS EC2 Instance
-/*
+
 resource "aws_instance" "DemoResource" {
   ami           = var.ami
   instance_type = var.instance_type
@@ -109,7 +109,7 @@ resource "aws_instance" "DemoResource" {
     Name = "Jenkins-Server"
   }
 }
-
+/*
 # Create an AWS EC" Instance to host Ansible Controller (Control node)
 
 resource "aws_instance" "AnsibleController" {
