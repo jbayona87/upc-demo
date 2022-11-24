@@ -109,7 +109,7 @@ resource "aws_instance" "DemoResource" {
     Name = "Jenkins-Server"
   }
 }
-
+/*
 # Create an AWS EC" Instance to host Ansible Controller (Control node)
 
 resource "aws_instance" "AnsibleController" {
@@ -125,3 +125,4 @@ resource "aws_instance" "AnsibleController" {
     Name = "Ansible-ControlNode"
   }
 }
+*/
