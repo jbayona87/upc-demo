@@ -95,7 +95,7 @@ resource "aws_route_table_association" "myLab-Assn" {
 }
 
 # Create an AWS EC2 Instance
-/*
+
 resource "aws_instance" "DemoResource" {
   ami           = var.ami
   instance_type = var.instance_type
@@ -125,4 +125,3 @@ resource "aws_instance" "AnsibleController" {
     Name = "Ansible-ControlNode"
   }
 }
-*/
